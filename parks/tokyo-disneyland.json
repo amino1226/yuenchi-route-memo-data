@@ -6,6 +6,7 @@
     "longitude": 139.8803
   },
   "openHour": 9,
+  "officialSiteUrl": "https://www.tokyodisneyresort.jp/tdl/",
   "pathGraph": {
     "nodes": [
       {
@@ -154,7 +155,9 @@
       "coordSource": "osm",
       "durationMinutes": 10,
       "popularity": 1,
-      "indoor": true
+      "indoor": true,
+      "summary": "クラシックなアーケードゲームが並ぶ、ワールドバザールのゲームコーナー。",
+      "thrill": 1
     },
     {
       "id": "tdl-jungle-cruise",
@@ -166,7 +169,9 @@
       "coordSource": "osm",
       "durationMinutes": 10,
       "popularity": 3,
-      "indoor": false
+      "indoor": false,
+      "summary": "船に乗って世界のジャングルを巡るボートツアー型アトラクション。",
+      "thrill": 1
     },
     {
       "id": "tdl-pirates",
@@ -178,7 +183,9 @@
       "coordSource": "estimated",
       "durationMinutes": 15,
       "popularity": 4,
-      "indoor": true
+      "indoor": true,
+      "summary": "海賊たちが暴れる世界をボートで進むダークライド。",
+      "thrill": 2
     },
     {
       "id": "tdl-magic-lamp-theater",
@@ -190,7 +197,9 @@
       "coordSource": "estimated",
       "durationMinutes": 20,
       "popularity": 2,
-      "indoor": true
+      "indoor": true,
+      "summary": "アラジンの世界を舞台にした3Dシアター型アトラクション。",
+      "thrill": 1
     },
     {
       "id": "tdl-swiss-family-treehouse",
@@ -202,7 +211,9 @@
       "coordSource": "estimated",
       "durationMinutes": 10,
       "popularity": 1,
-      "indoor": false
+      "indoor": false,
+      "summary": "大木の上に建てられた家を歩いて見学するウォークスルー型アトラクション。",
+      "thrill": 1
     },
     {
       "id": "tdl-big-thunder-mountain",
@@ -214,7 +225,12 @@
       "coordSource": "osm",
       "durationMinutes": 4,
       "popularity": 5,
-      "indoor": false
+      "indoor": false,
+      "summary": "鉱山列車をテーマにした絶叫系ジェットコースター。",
+      "heightLimitCm": {
+        "min": 102
+      },
+      "thrill": 4
     },
     {
       "id": "tdl-tom-sawyer-island",
@@ -226,7 +242,9 @@
       "coordSource": "osm",
       "durationMinutes": 15,
       "popularity": 1,
-      "indoor": false
+      "indoor": false,
+      "summary": "いかだに乗ってトムソーヤ島へ渡るアトラクション。",
+      "thrill": 1
     },
     {
       "id": "tdl-western-river-railroad",
@@ -238,7 +256,9 @@
       "coordSource": "estimated",
       "durationMinutes": 20,
       "popularity": 2,
-      "indoor": false
+      "indoor": false,
+      "summary": "蒸気機関車に乗って園内をぐるりと一周する乗り物。",
+      "thrill": 1
     },
     {
       "id": "tdl-splash-mountain",
@@ -250,7 +270,12 @@
       "coordSource": "estimated",
       "durationMinutes": 12,
       "popularity": 5,
-      "indoor": false
+      "indoor": false,
+      "summary": "丸太船で滝を滑り落ちるスリル系ウォーターライド。ずぶ濡れになることがある。",
+      "heightLimitCm": {
+        "min": 90
+      },
+      "thrill": 4
     },
     {
       "id": "tdl-beaver-brothers-canoes",
@@ -262,7 +287,9 @@
       "coordSource": "osm",
       "durationMinutes": 8,
       "popularity": 1,
-      "indoor": false
+      "indoor": false,
+      "summary": "自分たちでパドルを漕いで進む体験型のカヌーアトラクション。",
+      "thrill": 1
     },
     {
       "id": "tdl-peter-pan-flight",
@@ -274,7 +301,9 @@
       "coordSource": "osm",
       "durationMinutes": 3,
       "popularity": 5,
-      "indoor": true
+      "indoor": true,
+      "summary": "空飛ぶ海賊船に乗ってロンドンの夜空やネバーランドを巡るライド。",
+      "thrill": 1
     },
     {
       "id": "tdl-snow-white",
@@ -286,7 +315,9 @@
       "coordSource": "osm",
       "durationMinutes": 3,
       "popularity": 3,
-      "indoor": true
+      "indoor": true,
+      "summary": "白雪姫の物語をトロッコに乗って巡るダークライド。",
+      "thrill": 2
     },
     {
       "id": "tdl-pinocchio",
@@ -298,7 +329,9 @@
       "coordSource": "estimated",
       "durationMinutes": 3,
       "popularity": 2,
-      "indoor": true
+      "indoor": true,
+      "summary": "ピノキオの物語をトロッコに乗って巡るダークライド。",
+      "thrill": 1
     },
     {
       "id": "tdl-haunted-mansion",
@@ -310,7 +343,9 @@
       "coordSource": "estimated",
       "durationMinutes": 8,
       "popularity": 5,
-      "indoor": true
+      "indoor": true,
+      "summary": "999人の幽霊が住むと言われる洋館を、ライドに乗って巡るアトラクション。",
+      "thrill": 2
     },
     {
       "id": "tdl-small-world",
@@ -322,7 +357,9 @@
       "coordSource": "osm",
       "durationMinutes": 11,
       "popularity": 3,
-      "indoor": true
+      "indoor": true,
+      "summary": "世界各国の子どもたちの人形と歌を楽しむ、ゆったりしたボートクルーズ。",
+      "thrill": 1
     },
     {
       "id": "tdl-pooh-hunny-hunt",
@@ -334,7 +371,9 @@
       "coordSource": "estimated",
       "durationMinutes": 6,
       "popularity": 5,
-      "indoor": true
+      "indoor": true,
+      "summary": "くまのプーさんの物語を、はちみつの壺型の乗り物で不規則に巡るライド。",
+      "thrill": 2
     },
     {
       "id": "tdl-cinderella-fairy-tale-hall",
@@ -346,7 +385,9 @@
       "coordSource": "osm",
       "durationMinutes": 15,
       "popularity": 3,
-      "indoor": true
+      "indoor": true,
+      "summary": "シンデレラ城の中でプリンセスとグリーティングできるスポット。",
+      "thrill": 1
     },
     {
       "id": "tdl-philharmagic",
@@ -358,7 +399,9 @@
       "coordSource": "osm",
       "durationMinutes": 12,
       "popularity": 3,
-      "indoor": true
+      "indoor": true,
+      "summary": "3Dメガネをかけて楽しむ、ディズニーキャラクターたちのミュージカルシアター。",
+      "thrill": 1
     },
     {
       "id": "tdl-dumbo",
@@ -370,7 +413,9 @@
       "coordSource": "osm",
       "durationMinutes": 2,
       "popularity": 3,
-      "indoor": false
+      "indoor": false,
+      "summary": "ダンボの形をした乗り物で空を飛ぶ、小さな子どもにも人気のファミリーライド。",
+      "thrill": 1
     },
     {
       "id": "tdl-beauty-and-beast",
@@ -382,7 +427,9 @@
       "coordSource": "osm",
       "durationMinutes": 8,
       "popularity": 5,
-      "indoor": true
+      "indoor": true,
+      "summary": "美女と野獣の物語を、レールのないトラックレスライドで巡るアトラクション。",
+      "thrill": 2
     },
     {
       "id": "tdl-baymax",
@@ -394,7 +441,9 @@
       "coordSource": "osm",
       "durationMinutes": 3,
       "popularity": 4,
-      "indoor": false
+      "indoor": false,
+      "summary": "ベイマックスと一緒に、不規則な動きを楽しむ回転系ライド。",
+      "thrill": 2
     },
     {
       "id": "tdl-minnie-style-studio",
@@ -406,7 +455,9 @@
       "coordSource": "osm",
       "durationMinutes": 15,
       "popularity": 2,
-      "indoor": true
+      "indoor": true,
+      "summary": "おしゃれなミニーマウスとグリーティングできるスポット。",
+      "thrill": 1
     },
     {
       "id": "tdl-space-mountain",
@@ -419,7 +470,9 @@
       "durationMinutes": 3,
       "popularity": 5,
       "indoor": true,
-      "closed": true
+      "closed": true,
+      "summary": "暗闇の中を進む屋内型ジェットコースター。大規模改修のため長期休止中。",
+      "thrill": 4
     },
     {
       "id": "tdl-star-tours",
@@ -431,7 +484,9 @@
       "coordSource": "estimated",
       "durationMinutes": 5,
       "popularity": 4,
-      "indoor": true
+      "indoor": true,
+      "summary": "スター・ウォーズの世界を舞台にした3Dシミュレーターライド。",
+      "thrill": 3
     },
     {
       "id": "tdl-monsters-inc",
@@ -443,7 +498,9 @@
       "coordSource": "estimated",
       "durationMinutes": 5,
       "popularity": 4,
-      "indoor": true
+      "indoor": true,
+      "summary": "モンスターズ・インクの世界で、懐中電灯を使ってモンスターたちを探すライド。",
+      "thrill": 1
     }
   ]
 }
