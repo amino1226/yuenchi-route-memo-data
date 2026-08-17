@@ -1,0 +1,449 @@
+{
+  "id": "tokyo-disneyland",
+  "name": "東京ディズニーランド",
+  "entrance": {
+    "latitude": 35.635,
+    "longitude": 139.8803
+  },
+  "openHour": 9,
+  "pathGraph": {
+    "nodes": [
+      {
+        "id": "entrance",
+        "latitude": 35.635,
+        "longitude": 139.8803
+      },
+      {
+        "id": "world-bazaar-plaza",
+        "latitude": 35.633,
+        "longitude": 139.8807
+      },
+      {
+        "id": "adventureland-gate",
+        "latitude": 35.6338,
+        "longitude": 139.882
+      },
+      {
+        "id": "westernland-gate",
+        "latitude": 35.633,
+        "longitude": 139.8836
+      },
+      {
+        "id": "crittercountry-gate",
+        "latitude": 35.6305,
+        "longitude": 139.8838
+      },
+      {
+        "id": "fantasyland-hub",
+        "latitude": 35.6318,
+        "longitude": 139.881
+      },
+      {
+        "id": "toontown-hub",
+        "latitude": 35.636,
+        "longitude": 139.8795
+      },
+      {
+        "id": "tomorrowland-hub",
+        "latitude": 35.6355,
+        "longitude": 139.8815
+      }
+    ],
+    "edges": [
+      [
+        "entrance",
+        "world-bazaar-plaza"
+      ],
+      [
+        "world-bazaar-plaza",
+        "adventureland-gate"
+      ],
+      [
+        "world-bazaar-plaza",
+        "tomorrowland-hub"
+      ],
+      [
+        "world-bazaar-plaza",
+        "fantasyland-hub"
+      ],
+      [
+        "adventureland-gate",
+        "westernland-gate"
+      ],
+      [
+        "westernland-gate",
+        "crittercountry-gate"
+      ],
+      [
+        "westernland-gate",
+        "fantasyland-hub"
+      ],
+      [
+        "fantasyland-hub",
+        "toontown-hub"
+      ],
+      [
+        "fantasyland-hub",
+        "tomorrowland-hub"
+      ],
+      [
+        "toontown-hub",
+        "tomorrowland-hub"
+      ]
+    ]
+  },
+  "landAccessNode": {
+    "ワールドバザール": "world-bazaar-plaza",
+    "アドベンチャーランド": "adventureland-gate",
+    "ウエスタンランド": "westernland-gate",
+    "クリッターカントリー": "crittercountry-gate",
+    "ファンタジーランド": "fantasyland-hub",
+    "トゥーンタウン": "toontown-hub",
+    "トゥモローランド": "tomorrowland-hub"
+  },
+  "restaurants": [
+    {
+      "id": "tdl-crystal-palace",
+      "name": "クリスタルパレス・レストラン",
+      "land": "ワールドバザール",
+      "latitude": 35.6336,
+      "longitude": 139.8799,
+      "mealDurationMinutes": 45
+    },
+    {
+      "id": "tdl-polynesian-terrace",
+      "name": "ポリネシアンテラス・レストラン",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6336,
+      "longitude": 139.8823,
+      "mealDurationMinutes": 50
+    },
+    {
+      "id": "tdl-hokusai",
+      "name": "レストラン北斎",
+      "land": "ウエスタンランド",
+      "latitude": 35.6332,
+      "longitude": 139.8833,
+      "mealDurationMinutes": 45
+    },
+    {
+      "id": "tdl-grandma-sara",
+      "name": "グランマ サラのキッチン",
+      "land": "クリッターカントリー",
+      "latitude": 35.6307,
+      "longitude": 139.8835,
+      "mealDurationMinutes": 40
+    },
+    {
+      "id": "tdl-plaza-pavilion",
+      "name": "プラザパビリオン・レストラン",
+      "land": "トゥモローランド",
+      "latitude": 35.6353,
+      "longitude": 139.8812,
+      "mealDurationMinutes": 40
+    }
+  ],
+  "attractions": [
+    {
+      "id": "tdl-penny-arcade",
+      "name": "ペニーアーケード",
+      "land": "ワールドバザール",
+      "category": "その他",
+      "latitude": 35.6340158,
+      "longitude": 139.8795555,
+      "coordSource": "osm",
+      "durationMinutes": 10,
+      "popularity": 1,
+      "indoor": true
+    },
+    {
+      "id": "tdl-jungle-cruise",
+      "name": "ジャングルクルーズ",
+      "land": "アドベンチャーランド",
+      "category": "ライド",
+      "latitude": 35.6339528,
+      "longitude": 139.8824076,
+      "coordSource": "osm",
+      "durationMinutes": 10,
+      "popularity": 3,
+      "indoor": false
+    },
+    {
+      "id": "tdl-pirates",
+      "name": "カリブの海賊",
+      "land": "アドベンチャーランド",
+      "category": "ライド",
+      "latitude": 35.6335,
+      "longitude": 139.8817,
+      "coordSource": "estimated",
+      "durationMinutes": 15,
+      "popularity": 4,
+      "indoor": true
+    },
+    {
+      "id": "tdl-magic-lamp-theater",
+      "name": "マジックランプシアター",
+      "land": "アドベンチャーランド",
+      "category": "シアター",
+      "latitude": 35.6337,
+      "longitude": 139.8828,
+      "coordSource": "estimated",
+      "durationMinutes": 20,
+      "popularity": 2,
+      "indoor": true
+    },
+    {
+      "id": "tdl-swiss-family-treehouse",
+      "name": "スイスファミリー・ツリーハウス",
+      "land": "アドベンチャーランド",
+      "category": "その他",
+      "latitude": 35.6337,
+      "longitude": 139.8821,
+      "coordSource": "estimated",
+      "durationMinutes": 10,
+      "popularity": 1,
+      "indoor": false
+    },
+    {
+      "id": "tdl-big-thunder-mountain",
+      "name": "ビッグサンダー・マウンテン",
+      "land": "ウエスタンランド",
+      "category": "ライド",
+      "latitude": 35.6326401,
+      "longitude": 139.8840822,
+      "coordSource": "osm",
+      "durationMinutes": 4,
+      "popularity": 5,
+      "indoor": false
+    },
+    {
+      "id": "tdl-tom-sawyer-island",
+      "name": "トムソーヤ島いかだ",
+      "land": "ウエスタンランド",
+      "category": "その他",
+      "latitude": 35.6313841,
+      "longitude": 139.8836371,
+      "coordSource": "osm",
+      "durationMinutes": 15,
+      "popularity": 1,
+      "indoor": false
+    },
+    {
+      "id": "tdl-western-river-railroad",
+      "name": "ウエスタンリバー鉄道",
+      "land": "ウエスタンランド",
+      "category": "ライド",
+      "latitude": 35.6335,
+      "longitude": 139.8836,
+      "coordSource": "estimated",
+      "durationMinutes": 20,
+      "popularity": 2,
+      "indoor": false
+    },
+    {
+      "id": "tdl-splash-mountain",
+      "name": "スプラッシュ・マウンテン",
+      "land": "クリッターカントリー",
+      "category": "ライド",
+      "latitude": 35.629,
+      "longitude": 139.8838,
+      "coordSource": "estimated",
+      "durationMinutes": 12,
+      "popularity": 5,
+      "indoor": false
+    },
+    {
+      "id": "tdl-beaver-brothers-canoes",
+      "name": "ビーバーブラザーズのカヌー探検",
+      "land": "クリッターカントリー",
+      "category": "ライド",
+      "latitude": 35.6309898,
+      "longitude": 139.8838289,
+      "coordSource": "osm",
+      "durationMinutes": 8,
+      "popularity": 1,
+      "indoor": false
+    },
+    {
+      "id": "tdl-peter-pan-flight",
+      "name": "ピーターパン空の旅",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6319367,
+      "longitude": 139.8817773,
+      "coordSource": "osm",
+      "durationMinutes": 3,
+      "popularity": 5,
+      "indoor": true
+    },
+    {
+      "id": "tdl-snow-white",
+      "name": "白雪姫と七人のこびと",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6318542,
+      "longitude": 139.8814139,
+      "coordSource": "osm",
+      "durationMinutes": 3,
+      "popularity": 3,
+      "indoor": true
+    },
+    {
+      "id": "tdl-pinocchio",
+      "name": "ピノキオの冒険旅行",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6316,
+      "longitude": 139.8811,
+      "coordSource": "estimated",
+      "durationMinutes": 3,
+      "popularity": 2,
+      "indoor": true
+    },
+    {
+      "id": "tdl-haunted-mansion",
+      "name": "ホーンテッドマンション",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6317,
+      "longitude": 139.8812,
+      "coordSource": "estimated",
+      "durationMinutes": 8,
+      "popularity": 5,
+      "indoor": true
+    },
+    {
+      "id": "tdl-small-world",
+      "name": "イッツ・ア・スモールワールド",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6307269,
+      "longitude": 139.8809501,
+      "coordSource": "osm",
+      "durationMinutes": 11,
+      "popularity": 3,
+      "indoor": true
+    },
+    {
+      "id": "tdl-pooh-hunny-hunt",
+      "name": "プーさんのハニーハント",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6314,
+      "longitude": 139.8806,
+      "coordSource": "estimated",
+      "durationMinutes": 6,
+      "popularity": 5,
+      "indoor": true
+    },
+    {
+      "id": "tdl-cinderella-fairy-tale-hall",
+      "name": "シンデレラのフェアリーテイル・ホール",
+      "land": "ファンタジーランド",
+      "category": "グリーティング",
+      "latitude": 35.6319456,
+      "longitude": 139.8808501,
+      "coordSource": "osm",
+      "durationMinutes": 15,
+      "popularity": 3,
+      "indoor": true
+    },
+    {
+      "id": "tdl-philharmagic",
+      "name": "ミッキーのフィルハーマジック",
+      "land": "ファンタジーランド",
+      "category": "シアター",
+      "latitude": 35.6314952,
+      "longitude": 139.8806414,
+      "coordSource": "osm",
+      "durationMinutes": 12,
+      "popularity": 3,
+      "indoor": true
+    },
+    {
+      "id": "tdl-dumbo",
+      "name": "ダンボの飛行機",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6314631,
+      "longitude": 139.8816938,
+      "coordSource": "osm",
+      "durationMinutes": 2,
+      "popularity": 3,
+      "indoor": false
+    },
+    {
+      "id": "tdl-beauty-and-beast",
+      "name": "美女と野獣“魔法のものがたり”",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6311924,
+      "longitude": 139.8782215,
+      "coordSource": "osm",
+      "durationMinutes": 8,
+      "popularity": 5,
+      "indoor": true
+    },
+    {
+      "id": "tdl-baymax",
+      "name": "ベイマックスのハッピーライド",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6317007,
+      "longitude": 139.8788382,
+      "coordSource": "osm",
+      "durationMinutes": 3,
+      "popularity": 4,
+      "indoor": false
+    },
+    {
+      "id": "tdl-minnie-style-studio",
+      "name": "ミニーの スタイルスタジオ",
+      "land": "ファンタジーランド",
+      "category": "グリーティング",
+      "latitude": 35.6307263,
+      "longitude": 139.8794121,
+      "coordSource": "osm",
+      "durationMinutes": 15,
+      "popularity": 2,
+      "indoor": true
+    },
+    {
+      "id": "tdl-space-mountain",
+      "name": "スペース・マウンテン",
+      "land": "トゥモローランド",
+      "category": "ライド",
+      "latitude": 35.636,
+      "longitude": 139.8815,
+      "coordSource": "estimated",
+      "durationMinutes": 3,
+      "popularity": 5,
+      "indoor": true,
+      "closed": true
+    },
+    {
+      "id": "tdl-star-tours",
+      "name": "スター・ツアーズ:ザ・アドベンチャーズ・コンティニュー",
+      "land": "トゥモローランド",
+      "category": "ライド",
+      "latitude": 35.637,
+      "longitude": 139.8815,
+      "coordSource": "estimated",
+      "durationMinutes": 5,
+      "popularity": 4,
+      "indoor": true
+    },
+    {
+      "id": "tdl-monsters-inc",
+      "name": "モンスターズ・インク “ライド&ゴーシーク!”",
+      "land": "トゥモローランド",
+      "category": "ライド",
+      "latitude": 35.6368,
+      "longitude": 139.8822,
+      "coordSource": "estimated",
+      "durationMinutes": 5,
+      "popularity": 4,
+      "indoor": true
+    }
+  ]
+}
