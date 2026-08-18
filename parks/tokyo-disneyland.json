@@ -42,8 +42,8 @@
       },
       {
         "id": "toontown-hub",
-        "latitude": 35.636,
-        "longitude": 139.8795
+        "latitude": 35.6306,
+        "longitude": 139.8793
       },
       {
         "id": "tomorrowland-hub",
@@ -147,6 +147,20 @@
   ],
   "attractions": [
     {
+      "id": "tdl-omnibus",
+      "name": "オムニバス",
+      "land": "ワールドバザール",
+      "category": "ライド",
+      "latitude": 35.6330125,
+      "longitude": 139.8796956,
+      "coordSource": "osm",
+      "durationMinutes": 3,
+      "popularity": 1,
+      "indoor": false,
+      "summary": "2階建てバスに乗ってワールドバザールを一周する乗り物。",
+      "thrill": 1
+    },
+    {
       "id": "tdl-penny-arcade",
       "name": "ペニーアーケード",
       "land": "ワールドバザール",
@@ -203,6 +217,20 @@
       "thrill": 1
     },
     {
+      "id": "tdl-tiki-room",
+      "name": "魅惑のチキルーム:スティッチ・プレゼンツ\"アロハ・エ・コモ・マイ!\"",
+      "land": "アドベンチャーランド",
+      "category": "シアター",
+      "latitude": 35.6330894,
+      "longitude": 139.8822299,
+      "coordSource": "osm",
+      "durationMinutes": 12,
+      "popularity": 3,
+      "indoor": true,
+      "summary": "鳥たちが繰り広げる音楽ショーに、いたずら好きなスティッチが乱入する。",
+      "thrill": 1
+    },
+    {
       "id": "tdl-big-thunder-mountain",
       "name": "ビッグサンダー・マウンテン",
       "land": "ウエスタンランド",
@@ -218,6 +246,62 @@
         "min": 102
       },
       "thrill": 4
+    },
+    {
+      "id": "tdl-country-bear-theater",
+      "name": "カントリーベア・シアター",
+      "land": "ウエスタンランド",
+      "category": "シアター",
+      "latitude": 35.6325284,
+      "longitude": 139.8824532,
+      "coordSource": "osm",
+      "durationMinutes": 15,
+      "popularity": 2,
+      "indoor": true,
+      "summary": "個性あふれるゆかいなクマたちのにぎやかなコンサートショー。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-mark-twain-riverboat",
+      "name": "蒸気船マークトウェイン号",
+      "land": "ウエスタンランド",
+      "category": "ライド",
+      "latitude": 35.6318382,
+      "longitude": 139.8842886,
+      "coordSource": "osm",
+      "durationMinutes": 17,
+      "popularity": 2,
+      "indoor": false,
+      "summary": "優雅な蒸気船でアメリカ河をゆったりと周遊するクルーズ。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-shooting-gallery",
+      "name": "ウエスタンランド・シューティングギャラリー",
+      "land": "ウエスタンランド",
+      "category": "その他",
+      "latitude": 35.6328,
+      "longitude": 139.8834,
+      "coordSource": "estimated",
+      "durationMinutes": 5,
+      "popularity": 1,
+      "indoor": false,
+      "summary": "アメリカ西部の酒場で射撃の腕試し。※パークチケット代とは別料金の有料アトラクション。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-woodchuck-greeting-trail",
+      "name": "ウッドチャック・グリーティングトレイル",
+      "land": "ウエスタンランド",
+      "category": "グリーティング",
+      "latitude": 35.6329,
+      "longitude": 139.8832,
+      "coordSource": "estimated",
+      "durationMinutes": 10,
+      "popularity": 1,
+      "indoor": true,
+      "summary": "ドナルドたちキャラクターとグリーティングできるスポット。",
+      "thrill": 1
     },
     {
       "id": "tdl-tom-sawyer-island",
@@ -236,7 +320,7 @@
     {
       "id": "tdl-western-river-railroad",
       "name": "ウエスタンリバー鉄道",
-      "land": "ウエスタンランド",
+      "land": "アドベンチャーランド",
       "category": "ライド",
       "latitude": 35.6335,
       "longitude": 139.8836,
@@ -276,6 +360,34 @@
       "popularity": 1,
       "indoor": false,
       "summary": "自分たちでパドルを漕いで進む体験型のカヌーアトラクション。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-alice-tea-party",
+      "name": "アリスのティーパーティー",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.63116,
+      "longitude": 139.8809815,
+      "coordSource": "osm",
+      "durationMinutes": 2,
+      "popularity": 3,
+      "indoor": false,
+      "summary": "ふしぎの国のお茶会をイメージした、くるくる回るティーカップ。",
+      "thrill": 2
+    },
+    {
+      "id": "tdl-castle-carrousel",
+      "name": "キャッスルカルーセル",
+      "land": "ファンタジーランド",
+      "category": "ライド",
+      "latitude": 35.6314,
+      "longitude": 139.8813,
+      "coordSource": "estimated",
+      "durationMinutes": 2,
+      "popularity": 3,
+      "indoor": false,
+      "summary": "バンドオルガンの美しい音色に合わせて走る白馬たちのメリーゴーラウンド。",
       "thrill": 1
     },
     {
@@ -421,7 +533,7 @@
     {
       "id": "tdl-baymax",
       "name": "ベイマックスのハッピーライド",
-      "land": "ファンタジーランド",
+      "land": "トゥモローランド",
       "category": "ライド",
       "latitude": 35.6317007,
       "longitude": 139.8788382,
@@ -438,7 +550,7 @@
     {
       "id": "tdl-minnie-style-studio",
       "name": "ミニーの スタイルスタジオ",
-      "land": "ファンタジーランド",
+      "land": "トゥーンタウン",
       "category": "グリーティング",
       "latitude": 35.6307263,
       "longitude": 139.8794121,
@@ -493,6 +605,135 @@
       "popularity": 4,
       "indoor": true,
       "summary": "モンスターズ・インクの世界で、懐中電灯を使ってモンスターたちを探すライド。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-stitch-encounter",
+      "name": "スティッチ・エンカウンター",
+      "land": "トゥモローランド",
+      "category": "シアター",
+      "latitude": 35.6323158,
+      "longitude": 139.8791583,
+      "coordSource": "osm",
+      "durationMinutes": 15,
+      "popularity": 3,
+      "indoor": true,
+      "summary": "いたずら好きのスティッチと、リアルタイムのおしゃべりを楽しむ双方向ショー。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-gadget-gocoaster",
+      "name": "ガジェットのゴーコースター",
+      "land": "トゥーンタウン",
+      "category": "ライド",
+      "latitude": 35.6305,
+      "longitude": 139.879,
+      "coordSource": "estimated",
+      "durationMinutes": 2,
+      "popularity": 4,
+      "indoor": false,
+      "summary": "トゥーンタウンの天才発明家ガジェットがつくった、ドングリ型のジェットコースター。",
+      "heightLimitCm": {
+        "min": 90
+      },
+      "thrill": 3
+    },
+    {
+      "id": "tdl-roger-rabbit-cartoonspin",
+      "name": "ロジャーラビットのカートゥーンスピン",
+      "land": "トゥーンタウン",
+      "category": "ライド",
+      "latitude": 35.631,
+      "longitude": 139.8797,
+      "coordSource": "estimated",
+      "durationMinutes": 2,
+      "popularity": 3,
+      "indoor": false,
+      "summary": "スピンするキャブに乗って、ダウンタウン・トゥーンタウンを駆け抜けるライド。",
+      "thrill": 2
+    },
+    {
+      "id": "tdl-mickey-house-meet-mickey",
+      "name": "ミッキーの家とミート・ミッキー",
+      "land": "トゥーンタウン",
+      "category": "グリーティング",
+      "latitude": 35.6304,
+      "longitude": 139.8792,
+      "coordSource": "estimated",
+      "durationMinutes": 15,
+      "popularity": 5,
+      "indoor": true,
+      "summary": "ミッキーの家を見学したあと、本人とグリーティングできる人気スポット。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-minnie-house",
+      "name": "ミニーの家",
+      "land": "トゥーンタウン",
+      "category": "その他",
+      "latitude": 35.6308,
+      "longitude": 139.8798,
+      "coordSource": "estimated",
+      "durationMinutes": 8,
+      "popularity": 2,
+      "indoor": true,
+      "summary": "おしゃれなミニーのお部屋を見られるウォークスルー施設。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-donald-boat",
+      "name": "ドナルドのボート",
+      "land": "トゥーンタウン",
+      "category": "その他",
+      "latitude": 35.6303,
+      "longitude": 139.8796,
+      "coordSource": "estimated",
+      "durationMinutes": 5,
+      "popularity": 1,
+      "indoor": false,
+      "summary": "「ミス・デイジー号」に乗り込んで、汽笛やベルを鳴らして遊べるボート。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-goofy-paint-playhouse",
+      "name": "グーフィーのペイント&プレイハウス",
+      "land": "トゥーンタウン",
+      "category": "その他",
+      "latitude": 35.6306,
+      "longitude": 139.8791,
+      "coordSource": "estimated",
+      "durationMinutes": 8,
+      "popularity": 2,
+      "indoor": true,
+      "summary": "ペンキ噴射装置を使って、グーフィーの部屋を楽しく模様替えできる施設。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-chip-dale-treehouse",
+      "name": "チップとデールのツリーハウス",
+      "land": "トゥーンタウン",
+      "category": "その他",
+      "latitude": 35.6302,
+      "longitude": 139.879,
+      "coordSource": "estimated",
+      "durationMinutes": 5,
+      "popularity": 1,
+      "indoor": false,
+      "summary": "チップとデールのお家が見られるウォークスルー施設。",
+      "thrill": 1
+    },
+    {
+      "id": "tdl-toon-park",
+      "name": "トゥーンパーク",
+      "land": "トゥーンタウン",
+      "category": "その他",
+      "latitude": 35.6301,
+      "longitude": 139.8793,
+      "coordSource": "estimated",
+      "durationMinutes": 10,
+      "popularity": 1,
+      "indoor": false,
+      "summary": "小さな子どもも楽しめるプレイエリア。",
       "thrill": 1
     }
   ]
