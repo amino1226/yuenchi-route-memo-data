@@ -7,6 +7,7 @@
   },
   "openHour": 9,
   "officialSiteUrl": "https://www.tokyodisneyresort.jp/tdl/",
+  "officialMapUrl": "https://media2.tokyodisneyresort.jp/home/download/map/TDL_map.pdf",
   "pathGraph": {
     "nodes": [
       {
