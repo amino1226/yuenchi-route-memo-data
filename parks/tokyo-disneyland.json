@@ -113,6 +113,70 @@
       "mealDurationMinutes": 45
     },
     {
+      "id": "tdl-hokusai",
+      "name": "れすとらん北齋",
+      "land": "ワールドバザール",
+      "latitude": 35.63398,
+      "longitude": 139.87957,
+      "mealDurationMinutes": 40
+    },
+    {
+      "id": "tdl-icecream-cone",
+      "name": "アイスクリームコーン",
+      "land": "ワールドバザール",
+      "latitude": 35.6341,
+      "longitude": 139.8789,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-eastside-cafe",
+      "name": "イーストサイド・カフェ",
+      "land": "ワールドバザール",
+      "latitude": 35.6339,
+      "longitude": 139.8794,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-waffle-company",
+      "name": "グレートアメリカン・ワッフルカンパニー",
+      "land": "ワールドバザール",
+      "latitude": 35.6342835,
+      "longitude": 139.8802287,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-sweetheart-cafe",
+      "name": "スウィートハート・カフェ",
+      "land": "ワールドバザール",
+      "latitude": 35.6337149,
+      "longitude": 139.8795153,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-centerstreet-coffeehouse",
+      "name": "センターストリート・コーヒーハウス",
+      "land": "ワールドバザール",
+      "latitude": 35.6342033,
+      "longitude": 139.8791317,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-refreshment-corner",
+      "name": "リフレッシュメントコーナー",
+      "land": "ワールドバザール",
+      "latitude": 35.6339047,
+      "longitude": 139.8800598,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-cafe-orleans",
+      "name": "カフェ・オーリンズ",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6342023,
+      "longitude": 139.8811664,
+      "mealDurationMinutes": 20
+    },
+    {
       "id": "tdl-polynesian-terrace",
       "name": "ポリネシアンテラス・レストラン",
       "land": "アドベンチャーランド",
@@ -121,12 +185,124 @@
       "mealDurationMinutes": 50
     },
     {
-      "id": "tdl-hokusai",
-      "name": "レストラン北斎",
-      "land": "ウエスタンランド",
-      "latitude": 35.6332,
-      "longitude": 139.8833,
+      "id": "tdl-gazebo",
+      "name": "ザ・ガゼーボ",
+      "land": "アドベンチャーランド",
+      "latitude": 35.634,
+      "longitude": 139.8814,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-skippers-galley",
+      "name": "スキッパーズ・ギャレー",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6338,
+      "longitude": 139.8822,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-squeezers-juicebar",
+      "name": "スクウィーザーズ・トロピカル・ジュースバー",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6343,
+      "longitude": 139.8815,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-china-voyager",
+      "name": "チャイナボイジャー",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6337,
+      "longitude": 139.8818,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-parkside-wagon",
+      "name": "パークサイドワゴン",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6339,
+      "longitude": 139.8809,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-bluebayou",
+      "name": "ブルーバイユー・レストラン",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6345043,
+      "longitude": 139.8812049,
       "mealDurationMinutes": 45
+    },
+    {
+      "id": "tdl-freshfruit-oasis",
+      "name": "フレッシュフルーツオアシス",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6334,
+      "longitude": 139.8825,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-boilerroom-bites",
+      "name": "ボイラールーム・バイツ",
+      "land": "アドベンチャーランド",
+      "latitude": 35.632,
+      "longitude": 139.8838,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-royalstreet-veranda",
+      "name": "ロイヤルストリート・ベランダ",
+      "land": "アドベンチャーランド",
+      "latitude": 35.6341,
+      "longitude": 139.8813,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-cowboy-cookhouse",
+      "name": "カウボーイ・クックハウス",
+      "land": "ウエスタンランド",
+      "latitude": 35.6319994,
+      "longitude": 139.8827651,
+      "mealDurationMinutes": 25
+    },
+    {
+      "id": "tdl-woodchuck-kitchen",
+      "name": "キャンプ・ウッドチャック・キッチン",
+      "land": "ウエスタンランド",
+      "latitude": 35.6322,
+      "longitude": 139.8825,
+      "mealDurationMinutes": 30
+    },
+    {
+      "id": "tdl-diamond-horseshoe",
+      "name": "ザ・ダイヤモンドホースシュー",
+      "land": "ウエスタンランド",
+      "latitude": 35.6326333,
+      "longitude": 139.8816527,
+      "mealDurationMinutes": 40
+    },
+    {
+      "id": "tdl-hungrybear",
+      "name": "ハングリーベア・レストラン",
+      "land": "ウエスタンランド",
+      "latitude": 35.6317,
+      "longitude": 139.883,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-plaza-pavilion",
+      "name": "プラザパビリオン・レストラン",
+      "land": "ウエスタンランド",
+      "latitude": 35.6328582,
+      "longitude": 139.8815443,
+      "mealDurationMinutes": 40
+    },
+    {
+      "id": "tdl-pecosbill-cafe",
+      "name": "ペコスビル・カフェ",
+      "land": "ウエスタンランド",
+      "latitude": 35.6327189,
+      "longitude": 139.8818233,
+      "mealDurationMinutes": 25
     },
     {
       "id": "tdl-grandma-sara",
@@ -137,12 +313,156 @@
       "mealDurationMinutes": 40
     },
     {
-      "id": "tdl-plaza-pavilion",
-      "name": "プラザパビリオン・レストラン",
+      "id": "tdl-racoon-saloon",
+      "name": "ラケッティのラクーンサルーン",
+      "land": "クリッターカントリー",
+      "latitude": 35.6306,
+      "longitude": 139.8832,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-captainhook-galley",
+      "name": "キャプテンフックス・ギャレー",
+      "land": "ファンタジーランド",
+      "latitude": 35.6319879,
+      "longitude": 139.8820402,
+      "mealDurationMinutes": 25
+    },
+    {
+      "id": "tdl-queenheart-banquethall",
+      "name": "クイーン・オブ・ハートのバンケットホール",
+      "land": "ファンタジーランド",
+      "latitude": 35.6309372,
+      "longitude": 139.8814195,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-troubadour-tavern",
+      "name": "トルバドールタバン",
+      "land": "ファンタジーランド",
+      "latitude": 35.6320991,
+      "longitude": 139.8820985,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-villagepastry",
+      "name": "ビレッジペイストリー",
+      "land": "ファンタジーランド",
+      "latitude": 35.6309368,
+      "longitude": 139.8807039,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-magicalmarket",
+      "name": "マジカルマーケット",
+      "land": "ファンタジーランド",
+      "latitude": 35.6311,
+      "longitude": 139.8805,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-latavernedegaston",
+      "name": "ラ・タベルヌ・ド・ガストン",
+      "land": "ファンタジーランド",
+      "latitude": 35.6310452,
+      "longitude": 139.8792232,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-lefou",
+      "name": "ル・フウズ",
+      "land": "ファンタジーランド",
+      "latitude": 35.6310466,
+      "longitude": 139.8790378,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-lepetitpopper",
+      "name": "ル・プティポッパー",
+      "land": "ファンタジーランド",
+      "latitude": 35.6314643,
+      "longitude": 139.8786183,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-toontown-treat",
+      "name": "トゥーントーン・トリート",
+      "land": "トゥーンタウン",
+      "latitude": 35.6304062,
+      "longitude": 139.879353,
+      "mealDurationMinutes": 20
+    },
+    {
+      "id": "tdl-toonpop",
+      "name": "トゥーンポップ",
+      "land": "トゥーンタウン",
+      "latitude": 35.6301,
+      "longitude": 139.8791,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-hueydeweylouie-cafe",
+      "name": "ヒューイ・デューイ・ルーイのグッドタイム・カフェ",
+      "land": "トゥーンタウン",
+      "latitude": 35.6301177,
+      "longitude": 139.8793281,
+      "mealDurationMinutes": 30
+    },
+    {
+      "id": "tdl-popalot-popcorn",
+      "name": "ポップ・ア・ロット・ポップコーン",
+      "land": "トゥーンタウン",
+      "latitude": 35.6308,
+      "longitude": 139.8797,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-mickeystrailer",
+      "name": "ミッキーのトレーラー",
+      "land": "トゥーンタウン",
+      "latitude": 35.6303,
+      "longitude": 139.8789,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-softlanding",
+      "name": "ソフトランディング",
       "land": "トゥモローランド",
-      "latitude": 35.6353,
-      "longitude": 139.8812,
-      "mealDurationMinutes": 40
+      "latitude": 35.63354,
+      "longitude": 139.8787559,
+      "mealDurationMinutes": 15
+    },
+    {
+      "id": "tdl-tomorrowland-terrace",
+      "name": "トゥモローランド・テラス",
+      "land": "トゥモローランド",
+      "latitude": 35.6319715,
+      "longitude": 139.8795054,
+      "mealDurationMinutes": 35
+    },
+    {
+      "id": "tdl-pangalactic-pizzaport",
+      "name": "パン・ギャラクティック・ピザ・ポート",
+      "land": "トゥモローランド",
+      "latitude": 35.6331367,
+      "longitude": 139.878619,
+      "mealDurationMinutes": 25
+    },
+    {
+      "id": "tdl-bigpop",
+      "name": "ビッグポップ",
+      "land": "トゥモローランド",
+      "latitude": 35.6315184,
+      "longitude": 139.8792594,
+      "mealDurationMinutes": 10
+    },
+    {
+      "id": "tdl-plasmarays-diner",
+      "name": "プラズマ・レイズ・ダイナー",
+      "land": "トゥモローランド",
+      "latitude": 35.6335,
+      "longitude": 139.879,
+      "mealDurationMinutes": 30
     }
   ],
   "attractions": [
