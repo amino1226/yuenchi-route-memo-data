@@ -443,6 +443,9 @@
       "popularity": 4,
       "indoor": false,
       "summary": "ベイマックスと一緒に、不規則な動きを楽しむ回転系ライド。",
+      "heightLimitCm": {
+        "min": 81
+      },
       "thrill": 2
     },
     {
@@ -486,6 +489,9 @@
       "popularity": 4,
       "indoor": true,
       "summary": "スター・ウォーズの世界を舞台にした3Dシミュレーターライド。",
+      "heightLimitCm": {
+        "min": 102
+      },
       "thrill": 3
     },
     {
